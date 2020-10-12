@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.generic.autoApprovePublicationFormats.name"
-msgstr "Approve Pub Formats Plugin"
+msgstr "Auto Approve Pub Formats Plugin"
 
 msgid "plugins.generic.autoApprovePublicationFormats.description"
-msgstr "This plugin automatically approves all new publications formats and manuscript and chapter files."
+msgstr "The plugin will automatically approve and make available all new Publication Formats. When files are uploaded to a Publication Format, all of the files will be available and Open Access by default."

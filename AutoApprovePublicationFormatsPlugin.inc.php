@@ -47,6 +47,15 @@ class AutoApprovePublicationFormatsPlugin extends GenericPlugin {
 		return false;
 	}
 
+	/**
+	 * Hook to the submissionfilesmetadataform::execute function.
+	 *
+	 * @param $hookName string Hook name
+	 * @param $params array [
+	 *  @option submissionFilesMetadataForm
+	 * ]
+	 * @return boolean
+	 */
 	function executeSubmissionFilesUploadForm($hookName, $params) {
 		$submissionFilesMetadataForm = $params[0];
 		$submissionFile = $submissionFilesMetadataForm->getSubmissionFile();
